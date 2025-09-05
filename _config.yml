@@ -42,10 +42,7 @@ author: David Valdivia
 #
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- # La perspectiva de un desarrollador.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.dvaldivia.com" # the base hostname & protocol for your site, e.g. https://example.com
@@ -70,10 +67,10 @@ yat:
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+# sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "es"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -161,9 +158,9 @@ yat:
 
 # Page default value
 # defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+home:
+heading: "La perspectiva de un desarrollador"
+subheading: "Un blog nada profesional"
 #     banner: "Your image url"
 
 # Banner default settings
